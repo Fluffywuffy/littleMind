@@ -1,0 +1,88 @@
+/* this is the sizing for the images */
+.thumbNails { width: 150px; height: 120px; border: 2px groove cornflowerblue; border-radius: 20px; position: relative; z-index: 0;
+    transition: all 0.5s ease-in-out; /** this is how fast the text move up **/
+    -webkit-transition: all 0.5s ease-in-out; /** Chrome & Safari **/
+    -moz-transition: all 0.5s ease-in-out; /** Firefox **/
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.thumbNails:hover { width: 400px; height: 400px; z-index: 1000;     /** this sets the height of the text move-up and down space **/
+    transform: translate(0,-110px); /** this sets how big you want the feild for this text to move up you have to change all 4  **/
+    -webkit-transform: translate(0,-10px);
+    -o-transform: translate(0,-110px); 
+    -moz-transform: translate(0,-110px);
+        transition: all 0.5s ease-in-out; /** this is how fast the text move up **/
+    -webkit-transition: all 0.5s ease-in-out; /** Chrome & Safari **/
+    -moz-transition: all 0.5s ease-in-out; /** Firefox **/
+    -o-transition: all 0.5s ease-in-out; }
+/** this is the end of the thumbnail images resize animation **/
+
+/* this is the sizing for the first spacer to see background image */
+#spacer { height: 650px;  }
+/* this is just the hight light red */
+.heightLite { color: red; text-align: center;}
+/*this is the second spacer for between image and oredr bar */
+#spacerTwo { height: 10px; text-align: center; }
+
+#orderBar {background-color: black; color: white; border:
+2px solid cornflowerblue; border-radius: 20px; } 
+
+#firstPrinting { text-align: center; color: white; } 
+
+#imagesBG {width: 151%; border: 4px groove cornflowerblue; border-radius: 20px; height: 780px;}
+
+body {background-color: cornflowerblue;}
+
+#headerFont {font-family: sans-serif; font-size: 3em;  text-shadow: 2px 2px #ff0000; }
+
+/** footer sizing and font **/
+
+#footer { background-color: black; text-align: center; margin-top: 5px; height: 200px; color: white; font-size: 20px; font-family: serif; border: 2px cornflowerblue; border-radius: 20px;}
+
+.gi-space {margin-top: 20px;}
+
+.gi-font { margin-top: 70px; font-size: 15px;}
+
+.gi-margin {margin-top: 30px; font-size: 15px;}
+
+/** end of footer css **/
+
+ .social { background-color: black; border: 2px solid cornflowerblue; height: 100px; border: 2px solid cornflowerblue; border-radius: 20px;}
+
+ .fb-share {
+  vertical-align: top;
+  display: inline-block;
+  height: 18px;
+  padding: 0 4px;
+  border: 1px solid #cad4e7;
+  border-radius: 3px;
+  background: #eceef5;
+  color: #3b5998;
+  font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+  font-size: 11px;
+  line-height: 1;
+  text-decoration: none;
+  white-space: nowrap;
+  /* IE7 */
+  *display: inline;
+  *zoom: 1;
+}
+.fb-share:hover {
+  border-color: #9dacce;
+}
+.fb-share-icon {
+  position: relative;
+  top: 2px;
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin-right: 1px;
+  background-image: url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/y-/r/tbhIfdAHjXE.png);
+  /* IE7 */
+  *display: inline;
+  *zoom: 1;
+}
+.fb-share-text {
+  position: relative;
+  top: -1px;
+}
